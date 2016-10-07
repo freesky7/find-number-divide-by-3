@@ -4,9 +4,9 @@ import java.util.Random;
 
 public class RandomNumber {
 
-	public ArrayList<Integer> createRandom(int min, int max, int number) 
+	public ArrayList<Integer> createRandom(int max, int number) 
 	{
-		if(max < min || number <0) 
+		if(number <0) 
 		{
 			return null;
 		}
